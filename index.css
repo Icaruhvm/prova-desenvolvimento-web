@@ -1,4 +1,5 @@
 *{
+  background-color: black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,6 +22,7 @@ body {
 
 form {
   margin-bottom: 20px;
+  color: white;
 }
 
 table {
@@ -31,18 +33,19 @@ table {
 }
 
 th, td {
-  border: 1px solid grey;
+  border: 1px solid #242424;
   padding: 8px;
   text-align: left;
+  color: white;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: black;
 }
 
 button {
   padding: 10px 20px;
-  background-color: #a7a7a7;
+  background-color: #242424;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -58,7 +61,7 @@ button:hover {
 
 form input, form textarea{
     width: 100%;
-    background-color: #a7a7a7;
+    background-color: #242424;
     border: none;
     outline: 0;
     padding: 5px 15px;
